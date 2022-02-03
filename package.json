@@ -1,0 +1,22 @@
+{
+  "name": "dog",
+  "version": "0.0.1-beta",
+  "description": "cool animal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeviinL/Dog.git"
+  },
+  "keywords": [
+    "dog"
+  ],
+  "author": "KeviinL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeviinL/Dog/issues"
+  },
+  "homepage": "https://github.com/KeviinL/Dog#readme"
+}
