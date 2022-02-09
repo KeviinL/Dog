@@ -1,24 +1,18 @@
-class Shiba extends Dog {
-        public name: string;
-        public age: number;
-        public numOfLegs: number;
-        public hasFur: boolean;
-        public barks: boolean;
+import { Dog } from './dog'
 
-    constructor(name: string, age: number, numOfLegs: number, hasFur: boolean, barks: boolean) {
+class Shiba extends Dog {
+    private tail: string;
+    private size: string;
+    private furColor: string;
+
+    constructor(name: string, age: number, numOfLegs: number, hasFur: boolean, barks: boolean, tail: string, size: string, furColor: string) {
         super(name, age, numOfLegs, hasFur, barks);
-        this.name = name;
-        this.age = age;
-        this.numOfLegs = numOfLegs;
-        this.hasFur = hasFur;
-        this.barks = barks;
+        this.tail = tail;
+        this.size = size;
+        this.furColor = furColor;
     }
 
     describe(): string {
         return "My dogs name is " + this.name + ", and is " + this.age + " years old. They have  " + this.numOfLegs + " legs and " + this.hasFur + " fur, and they " + this.barks + ".";
     }
-    
-    static sushi = new Shiba("Sushi", 2, 4, true, true);
-
-    
 }

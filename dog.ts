@@ -1,4 +1,4 @@
-class Dog {
+export class Dog {
     numOfLegs: number;
     hasFur: boolean;
     barks: boolean;
