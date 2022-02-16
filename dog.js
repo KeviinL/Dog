@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+exports.Dog = void 0;
 var Dog = /** @class */ (function () {
     function Dog(name, age, numOfLegs, hasFur, barks) {
         this.name = name;
@@ -34,3 +37,4 @@ var Dog = /** @class */ (function () {
     };
     return Dog;
 }());
+exports.Dog = Dog;

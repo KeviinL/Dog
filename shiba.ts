@@ -12,7 +12,7 @@ class Shiba extends Dog {
         this.furColor = furColor;
     }
 
-    describe(): string {
+    describeShiba(describe: string): string {
         return "My dogs name is " + this.name + ", and is " + this.age + " years old. They have  " + this.numOfLegs + " legs and " + this.hasFur + " fur, and they " + this.barks + ".";
     }
 }
